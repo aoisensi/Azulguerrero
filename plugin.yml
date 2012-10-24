@@ -1,0 +1,10 @@
+name: Azulguerrero
+main: info.aoisensi.azulguerrero.Azulguerrero
+version: 1
+
+commands:
+  backup:
+    description: バックアップを取ります
+    usage: /backup
+    permission: Azulguerrero.backup
+    permission-message: このコマンドはop権限を持ってるユーザーしか実行できません
