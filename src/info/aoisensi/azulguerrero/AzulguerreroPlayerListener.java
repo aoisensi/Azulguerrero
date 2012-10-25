@@ -22,6 +22,8 @@ public class AzulguerreroPlayerListener implements Listener {
 		player.sendMessage(ChatColor.DARK_AQUA + "[NEWS]実行してくれると嬉しいです！(save-allコマンドは必要ありません)");
 		player.sendMessage(ChatColor.DARK_AQUA + "[NEWS]こんな機能あればいいなというのがあったら主に言ってください！");
 		player.sendMessage(ChatColor.DARK_AQUA + "[NEWS](実は他にも機能があるかも…)");
+		player.sendMessage(ChatColor.DARK_AQUA + "[NEWS]サーバーwikiを開きました！全く編集してません！URLはこちら！");
+		player.sendMessage(ChatColor.DARK_AQUA + "[NEWS] " + ChatColor.GOLD + "http://mcs.aoisensi.info/");
 	}
 	
 	@EventHandler
