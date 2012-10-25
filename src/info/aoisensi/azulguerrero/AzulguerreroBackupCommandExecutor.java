@@ -38,7 +38,6 @@ public class AzulguerreroBackupCommandExecutor implements CommandExecutor {
 				System.out.println(dir.getPath());
 				if(!dir.exists()){
 					dir.mkdir();
-					player.sendMessage(ChatColor.GRAY + "backupフォルダが見つからなかったので作成しました");
 				}
 				dir = new File(dir, (AzulguerreroMethod.nowString()));
 				dir.mkdir();
@@ -53,7 +52,6 @@ public class AzulguerreroBackupCommandExecutor implements CommandExecutor {
 						AzulguerreroMethod.sendMessageAllPlayer(ChatColor.GRAY + world.getName() + "のバックアップが完了しました");
 					} catch (IOException e) {
 						AzulguerreroMethod.sendMessageAllPlayer(ChatColor.GRAY + world.getName() + "のバックアップに失敗しました");
-						player.sendMessage(ChatColor.RED + e.getMessage());
 					}
 				}
 				return true;

@@ -1,6 +1,6 @@
 name: Azulguerrero
 main: info.aoisensi.azulguerrero.Azulguerrero
-version: 1
+version: 2
 
 commands:
   backup:
