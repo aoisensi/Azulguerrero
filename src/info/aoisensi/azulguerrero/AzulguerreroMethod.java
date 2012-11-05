@@ -8,6 +8,7 @@ import org.bukkit.entity.Player;
 
 public class AzulguerreroMethod {
 	public static void sendMessageAllPlayer(String Message){
+		System.out.println(Message);
 		for(Player player:Bukkit.getOnlinePlayers()){
 			player.sendMessage(Message);
 		}
